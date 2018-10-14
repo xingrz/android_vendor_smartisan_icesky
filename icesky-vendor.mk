@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp_voice.eq:system/etc/tfa98xx/nxp_voice.eq \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp_voice.preset:system/etc/tfa98xx/nxp_voice.preset \
     vendor/smartisan/icesky/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
+    vendor/smartisan/icesky/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
     vendor/smartisan/icesky/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/smartisan/icesky/proprietary/lib/hw/keystore.qcom.so:system/lib/hw/keystore.qcom.so \
     vendor/smartisan/icesky/proprietary/lib/libarcsoft_panorama.so:system/lib/libarcsoft_panorama.so \
@@ -120,6 +121,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/smartisan/icesky/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/smartisan/icesky/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/smartisan/icesky/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
     vendor/smartisan/icesky/proprietary/lib64/hw/keystore.qcom.so:system/lib64/hw/keystore.qcom.so \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config_g:system/vendor/etc/diracmobile.config_g \
