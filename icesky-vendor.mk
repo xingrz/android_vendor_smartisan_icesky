@@ -119,8 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/lib/libarcsoft_panorama.so:system/lib/libarcsoft_panorama.so \
     vendor/smartisan/icesky/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/smartisan/icesky/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/smartisan/icesky/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/smartisan/icesky/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/smartisan/icesky/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/smartisan/icesky/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
@@ -273,9 +271,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libflash_i2c_led.so:system/vendor/lib/libflash_i2c_led.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -356,15 +351,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libois_liteon_lc898122.so:system/vendor/lib/libois_liteon_lc898122.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libois_sharp_lc898122.so:system/vendor/lib/libois_sharp_lc898122.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
@@ -479,6 +468,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/smartisan/icesky/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/smartisan/icesky/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/smartisan/icesky/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/smartisan/icesky/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/smartisan/icesky/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/smartisan/icesky/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/smartisan/icesky/proprietary/lib64/libjni_resource_drm.so:system/lib64/libjni_resource_drm.so \
@@ -568,6 +559,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
@@ -585,7 +579,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -600,6 +597,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
