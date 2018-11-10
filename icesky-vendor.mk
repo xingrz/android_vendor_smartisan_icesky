@@ -390,7 +390,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/smartisan/icesky/proprietary/bin/cnd:system/bin/cnd \
     vendor/smartisan/icesky/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/smartisan/icesky/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/smartisan/icesky/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/smartisan/icesky/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/smartisan/icesky/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
@@ -427,8 +426,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/smartisan/icesky/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/smartisan/icesky/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    vendor/smartisan/icesky/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/smartisan/icesky/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/smartisan/icesky/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/smartisan/icesky/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/smartisan/icesky/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
@@ -450,12 +447,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/smartisan/icesky/proprietary/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg \
     vendor/smartisan/icesky/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/smartisan/icesky/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/smartisan/icesky/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -542,11 +537,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -681,11 +671,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
@@ -775,11 +760,9 @@ PRODUCT_PACKAGES += \
     imssettings \
     QtiTelephonyServicelibrary \
     cneapiclient \
-    com.qti.dpmframework \
     com.qti.location.sdk \
     com.qualcomm.location.vzw_library \
     com.quicinc.cne \
-    dpmapi \
     izat.xt.srv \
     qcnvitems \
     qcrilhook
