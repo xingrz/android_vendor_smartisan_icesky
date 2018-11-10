@@ -782,5 +782,4 @@ PRODUCT_PACKAGES += \
     dpmapi \
     izat.xt.srv \
     qcnvitems \
-    qcrilhook \
-    qti-telephony-common
+    qcrilhook
