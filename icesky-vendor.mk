@@ -452,21 +452,15 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/wifibt_diag.cfg:system/etc/wifibt_diag.cfg \
     vendor/smartisan/icesky/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:system/vendor/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/smartisan/icesky/proprietary/vendor/framework/com.quicinc.cne.jar:system/vendor/framework/com.quicinc.cne.jar \
-    vendor/smartisan/icesky/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/smartisan/icesky/proprietary/lib/libjni_resource_drm.so:system/lib/libjni_resource_drm.so \
     vendor/smartisan/icesky/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/smartisan/icesky/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/smartisan/icesky/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/smartisan/icesky/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/smartisan/icesky/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/smartisan/icesky/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/smartisan/icesky/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
-    vendor/smartisan/icesky/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/smartisan/icesky/proprietary/lib64/libjni_resource_drm.so:system/lib64/libjni_resource_drm.so \
     vendor/smartisan/icesky/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/smartisan/icesky/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/smartisan/icesky/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/smartisan/icesky/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/smartisan/icesky/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/smartisan/icesky/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/smartisan/icesky/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
