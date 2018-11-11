@@ -140,7 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0051_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0051_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/smartisan/icesky/proprietary/vendor/firmware/shtsc_fw.bin:system/vendor/firmware/shtsc_fw.bin \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/activity_recognition.msm8992.so:system/vendor/lib/hw/activity_recognition.msm8992.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/hw/sensors.msm8992.so:system/vendor/lib/hw/sensors.msm8992.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/sensors.vendor.so:system/vendor/lib/sensors.vendor.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libDiracAPI_SHARED.so:system/vendor/lib/libDiracAPI_SHARED.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
@@ -375,7 +375,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/hw/activity_recognition.msm8992.so:system/vendor/lib64/hw/activity_recognition.msm8992.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib64/hw/sensors.msm8992.so:system/vendor/lib64/hw/sensors.msm8992.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib64/sensors.vendor.so:system/vendor/lib64/sensors.vendor.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
