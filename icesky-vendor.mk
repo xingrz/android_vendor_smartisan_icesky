@@ -391,16 +391,12 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/bin/dun-server:system/vendor/bin/dun-server \
     vendor/smartisan/icesky/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/smartisan/icesky/proprietary/vendor/bin/ftmdaemon:system/vendor/bin/ftmdaemon \
-    vendor/smartisan/icesky/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
-    vendor/smartisan/icesky/proprietary/vendor/bin/gpsone_daemon:system/vendor/bin/gpsone_daemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/smartisan/icesky/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/smartisan/icesky/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/smartisan/icesky/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
-    vendor/smartisan/icesky/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/smartisan/icesky/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/mmbn-daemon:system/vendor/bin/mmbn-daemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
@@ -414,8 +410,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/smartisan/icesky/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/smartisan/icesky/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
-    vendor/smartisan/icesky/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
-    vendor/smartisan/icesky/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/smartisan/icesky/proprietary/etc/calib.cfg:system/etc/calib.cfg \
     vendor/smartisan/icesky/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/smartisan/icesky/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
@@ -440,11 +434,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/smartisan/icesky/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/smartisan/icesky/proprietary/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg \
-    vendor/smartisan/icesky/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/smartisan/icesky/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/smartisan/icesky/proprietary/vendor/etc/permissions/com.qualcomm.location.xml:system/vendor/etc/permissions/com.qualcomm.location.xml \
     vendor/smartisan/icesky/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
-    vendor/smartisan/icesky/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/smartisan/icesky/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
@@ -453,27 +443,35 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:system/vendor/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/smartisan/icesky/proprietary/vendor/framework/com.quicinc.cne.jar:system/vendor/framework/com.quicinc.cne.jar \
     vendor/smartisan/icesky/proprietary/lib/libjni_resource_drm.so:system/lib/libjni_resource_drm.so \
-    vendor/smartisan/icesky/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/smartisan/icesky/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/smartisan/icesky/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/smartisan/icesky/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/smartisan/icesky/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/smartisan/icesky/proprietary/lib64/libjni_resource_drm.so:system/lib64/libjni_resource_drm.so \
-    vendor/smartisan/icesky/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/smartisan/icesky/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/smartisan/icesky/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/smartisan/icesky/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/smartisan/icesky/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
+    vendor/smartisan/icesky/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
+    vendor/smartisan/icesky/proprietary/vendor/bin/gpsone_daemon:system/vendor/bin/gpsone_daemon \
+    vendor/smartisan/icesky/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/smartisan/icesky/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/smartisan/icesky/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/smartisan/icesky/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/smartisan/icesky/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/smartisan/icesky/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+    vendor/smartisan/icesky/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/smartisan/icesky/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/smartisan/icesky/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/smartisan/icesky/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
     vendor/smartisan/icesky/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
     vendor/smartisan/icesky/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
     vendor/smartisan/icesky/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
+    vendor/smartisan/icesky/proprietary/vendor/etc/permissions/com.qti.location.sdk.xml:system/vendor/etc/permissions/com.qti.location.sdk.xml \
+    vendor/smartisan/icesky/proprietary/vendor/etc/permissions/com.qualcomm.location.vzw_library.xml:system/vendor/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/smartisan/icesky/proprietary/vendor/etc/permissions/com.qualcomm.location.xml:system/vendor/etc/permissions/com.qualcomm.location.xml \
+    vendor/smartisan/icesky/proprietary/vendor/etc/permissions/izat.xt.srv.xml:system/vendor/etc/permissions/izat.xt.srv.xml \
+    vendor/smartisan/icesky/proprietary/vendor/framework/com.qti.location.sdk.jar:system/vendor/framework/com.qti.location.sdk.jar \
+    vendor/smartisan/icesky/proprietary/vendor/framework/com.qualcomm.location.vzw_library.jar:system/vendor/framework/com.qualcomm.location.vzw_library.jar \
+    vendor/smartisan/icesky/proprietary/vendor/framework/izat.xt.srv.jar:system/vendor/framework/izat.xt.srv.jar \
     vendor/smartisan/icesky/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so:system/vendor/lib/com.quicinc.cne.constants@2.0.so \
@@ -521,6 +519,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
@@ -554,6 +553,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
@@ -603,6 +604,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
@@ -661,6 +663,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
@@ -691,6 +694,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
@@ -735,6 +740,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
@@ -760,8 +766,5 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     QtiTelephonyServicelibrary \
-    com.qti.location.sdk \
-    com.qualcomm.location.vzw_library \
-    izat.xt.srv \
     qcnvitems \
     qcrilhook
