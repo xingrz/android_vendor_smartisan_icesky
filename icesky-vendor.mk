@@ -114,7 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp_voice.preset:system/etc/tfa98xx/nxp_voice.preset \
     vendor/smartisan/icesky/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/smartisan/icesky/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/hw/camera.msm8992.so:system/vendor/lib/hw/camera.msm8992.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/hw/camera.vendor.msm8992.so:system/vendor/lib/hw/camera.vendor.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/keystore.msm8992.so:system/vendor/lib/hw/keystore.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libarcsoft_panorama.so:system/vendor/lib/libarcsoft_panorama.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
