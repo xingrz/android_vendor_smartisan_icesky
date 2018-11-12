@@ -27,18 +27,18 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/smartisan/icesky/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
-    vendor/smartisan/icesky/proprietary/etc/firmware/bcm43455_apsta.bin:system/etc/firmware/bcm43455_apsta.bin \
-    vendor/smartisan/icesky/proprietary/etc/firmware/bcm43455_bt.hcd:system/etc/firmware/bcm43455_bt.hcd \
-    vendor/smartisan/icesky/proprietary/etc/firmware/bcm43455_mfg.bin:system/etc/firmware/bcm43455_mfg.bin \
-    vendor/smartisan/icesky/proprietary/etc/firmware/bcm43455_nvram.txt:system/etc/firmware/bcm43455_nvram.txt \
-    vendor/smartisan/icesky/proprietary/etc/firmware/bcm43455_pciehdr.bin:system/etc/firmware/bcm43455_pciehdr.bin \
-    vendor/smartisan/icesky/proprietary/etc/firmware/bcm43455_sta.bin:system/etc/firmware/bcm43455_sta.bin \
-    vendor/smartisan/icesky/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/smartisan/icesky/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/smartisan/icesky/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/smartisan/icesky/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/smartisan/icesky/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/smartisan/icesky/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/bcm43455_apsta.bin:system/vendor/firmware/bcm43455_apsta.bin \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/bcm43455_bt.hcd:system/vendor/firmware/bcm43455_bt.hcd \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/bcm43455_mfg.bin:system/vendor/firmware/bcm43455_mfg.bin \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/bcm43455_nvram.txt:system/vendor/firmware/bcm43455_nvram.txt \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/bcm43455_pciehdr.bin:system/vendor/firmware/bcm43455_pciehdr.bin \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/bcm43455_sta.bin:system/vendor/firmware/bcm43455_sta.bin \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
     vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO100_3096X3096.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO100_3096X3096.ncf \
     vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO100_4096X2304.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO100_4096X2304.ncf \
     vendor/smartisan/icesky/proprietary/etc/sensor_denoise_table/liteon_imx214/ISO100_4160X3120.ncf:system/etc/sensor_denoise_table/liteon_imx214/ISO100_4160X3120.ncf \
@@ -114,15 +114,15 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/tfa98xx/nxp_voice.preset:system/etc/tfa98xx/nxp_voice.preset \
     vendor/smartisan/icesky/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/smartisan/icesky/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
-    vendor/smartisan/icesky/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
-    vendor/smartisan/icesky/proprietary/lib/hw/keystore.qcom.so:system/lib/hw/keystore.qcom.so \
-    vendor/smartisan/icesky/proprietary/lib/libarcsoft_panorama.so:system/lib/libarcsoft_panorama.so \
-    vendor/smartisan/icesky/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/smartisan/icesky/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/hw/camera.msm8992.so:system/vendor/lib/hw/camera.msm8992.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/hw/keystore.msm8992.so:system/vendor/lib/hw/keystore.msm8992.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libarcsoft_panorama.so:system/vendor/lib/libarcsoft_panorama.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/smartisan/icesky/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/smartisan/icesky/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
-    vendor/smartisan/icesky/proprietary/lib64/hw/keystore.qcom.so:system/lib64/hw/keystore.qcom.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib64/hw/keystore.msm8992.so:system/vendor/lib64/hw/keystore.msm8992.so \
     vendor/smartisan/icesky/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/smartisan/icesky/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
@@ -414,40 +414,39 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/smartisan/icesky/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/smartisan/icesky/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    vendor/smartisan/icesky/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/smartisan/icesky/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/smartisan/icesky/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/smartisan/icesky/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/smartisan/icesky/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/smartisan/icesky/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/smartisan/icesky/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/smartisan/icesky/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/smartisan/icesky/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/smartisan/icesky/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/smartisan/icesky/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/smartisan/icesky/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/smartisan/icesky/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/smartisan/icesky/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/smartisan/icesky/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/smartisan/icesky/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/smartisan/icesky/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/smartisan/icesky/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/smartisan/icesky/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/nvm_tlv.bin:system/vendor/firmware/nvm_tlv.bin \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/nvm_tlv_1.3.bin:system/vendor/firmware/nvm_tlv_1.3.bin \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/nvm_tlv_2.1.bin:system/vendor/firmware/nvm_tlv_2.1.bin \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/nvm_tlv_3.0.bin:system/vendor/firmware/nvm_tlv_3.0.bin \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/nvm_tlv_3.2.bin:system/vendor/firmware/nvm_tlv_3.2.bin \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/rampatch_tlv.img:system/vendor/firmware/rampatch_tlv.img \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:system/vendor/firmware/rampatch_tlv_1.3.tlv \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:system/vendor/firmware/rampatch_tlv_2.1.tlv \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:system/vendor/firmware/rampatch_tlv_3.0.tlv \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/rampatch_tlv_3.2.tlv:system/vendor/firmware/rampatch_tlv_3.2.tlv \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/smartisan/icesky/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/smartisan/icesky/proprietary/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg \
     vendor/smartisan/icesky/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/smartisan/icesky/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/smartisan/icesky/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
-    vendor/smartisan/icesky/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml \
+    vendor/smartisan/icesky/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/smartisan/icesky/proprietary/etc/wifibt_diag.cfg:system/etc/wifibt_diag.cfg \
+    vendor/smartisan/icesky/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/smartisan/icesky/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:system/vendor/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/smartisan/icesky/proprietary/vendor/framework/com.quicinc.cne.jar:system/vendor/framework/com.quicinc.cne.jar \
-    vendor/smartisan/icesky/proprietary/lib/libjni_resource_drm.so:system/lib/libjni_resource_drm.so \
-    vendor/smartisan/icesky/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/smartisan/icesky/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/smartisan/icesky/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
-    vendor/smartisan/icesky/proprietary/lib64/libjni_resource_drm.so:system/lib64/libjni_resource_drm.so \
-    vendor/smartisan/icesky/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
+    vendor/smartisan/icesky/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/smartisan/icesky/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/smartisan/icesky/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/smartisan/icesky/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
@@ -764,7 +763,4 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     qcrilmsgtunnel \
     ims \
-    imssettings \
-    QtiTelephonyServicelibrary \
-    qcnvitems \
-    qcrilhook
+    imssettings
