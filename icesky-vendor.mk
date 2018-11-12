@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/smartisan/icesky/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/smartisan/icesky/proprietary/bin/sharp_fw_download:system/bin/sharp_fw_download \
+    vendor/smartisan/icesky/proprietary/bin/tinymix:system/bin/tinymix \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/smartisan/icesky/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -117,12 +118,17 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/camera.vendor.msm8992.so:system/vendor/lib/hw/camera.vendor.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/hw/keystore.msm8992.so:system/vendor/lib/hw/keystore.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libarcsoft_panorama.so:system/vendor/lib/libarcsoft_panorama.so \
+    vendor/smartisan/icesky/proprietary/lib/libaudioparameter.so:system/lib/libaudioparameter.so \
+    vendor/smartisan/icesky/proprietary/lib/libaudioresampler.so:system/lib/libaudioresampler.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/smartisan/icesky/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/smartisan/icesky/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/smartisan/icesky/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
     vendor/smartisan/icesky/proprietary/vendor/lib64/hw/keystore.msm8992.so:system/vendor/lib64/hw/keystore.msm8992.so \
+    vendor/smartisan/icesky/proprietary/lib64/libaudioparameter.so:system/lib64/libaudioparameter.so \
+    vendor/smartisan/icesky/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/smartisan/icesky/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/smartisan/icesky/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/smartisan/icesky/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
@@ -354,8 +360,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libois_liteon_lc898122.so:system/vendor/lib/libois_liteon_lc898122.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libois_sharp_lc898122.so:system/vendor/lib/libois_sharp_lc898122.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/smartisan/icesky/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/rfsa/adsp/fastrpc_shell_0:system/vendor/lib/rfsa/adsp/fastrpc_shell_0 \
     vendor/smartisan/icesky/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
