@@ -121,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/lib/libaudioparameter.so:system/lib/libaudioparameter.so \
     vendor/smartisan/icesky/proprietary/lib/libaudioresampler.so:system/lib/libaudioresampler.so \
     vendor/smartisan/icesky/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/smartisan/icesky/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/smartisan/icesky/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/smartisan/icesky/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
@@ -453,8 +452,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/icesky/proprietary/vendor/framework/com.quicinc.cne.jar:system/vendor/framework/com.quicinc.cne.jar \
     vendor/smartisan/icesky/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/smartisan/icesky/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
-    vendor/smartisan/icesky/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/smartisan/icesky/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/smartisan/icesky/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
     vendor/smartisan/icesky/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
